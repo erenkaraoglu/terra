@@ -1,0 +1,25 @@
+﻿.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.simple-text{
+    
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.sbody-text {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.image-frame {
+    background-image: url('images/leaf-frame.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
